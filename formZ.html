@@ -1,66 +1,56 @@
-﻿<!doctype html>
-
+<!doctype html>
 <html lang="en">
 
- <head>
-  <meta charset=utf-8“>
-   <title>Forms</title>
-    <link href="css/style_ZZ.css" rel="stylesheet">
- </head>
- 
- <body>
+<head>
 
- <p class="neim">Forms</p>
+    <meta charset=utf-8“>
 
-  <fieldset class="blue">
-   <legend>Authorization</legend>
-    <p <label for="name">Login </label><input class="start"type="text" name="name" id="name"></p>
-
-    <p <label for="password">Password</label><input  class="start1"type="password" name="password" id="password" ></p>
-    <p><input class="start2"type="reset" name="reset" value="Submit"></p>
-
-  </fieldset>
+    <title>Forms</title>
   
-  <fieldset class="blue1">
+    <link href="css/style_ZZ.css" rel="stylesheet">
+</head>
 
-<legend>Registration:</legend>
-<p class="neim1">Common:</p>
-<p <label for="name">Name </label> <input class="input1"type="text" name="name" id="name">  John</p> 
+ <body>
+       <p class="spect">Forms</p>
 
-      <p <label for="password">Surnamme</label><input class="input2"type="password" name="password" id="password" >  Doe</p>
+   <fieldset class="blue">
+      <legend>Authorization</legend>
+        <p><label for="name">Login</label><input class="start" type="text" name="name" id="name"></p>
+	
+        <p><label for="password">Password</label><input class="start1" type="password" name="password" id="password"></p>
+    
+        <p> <input class="start2" type="reset" name="reset" value="Submit"></p>
 
-   <div><p class="knop1">Gender</p></div>
-   
-   <div class="knop">
-     <p><label><input type="radio" name="time" valye="yes"</label>Male</p>
-     <p><label><input type="radio" name="time" valye="yes"</label>Femali</p>
-     <p><label><input type="radio" name="time" valye="yes"</label>Unknown</p>
-   </div>
-   
-     <p <label class="blue3"for="name">Date of birth</label> <input class="input3"type="text" name="name" id="name">  01/01/1900</p>
+   </fieldset>
+ 
+   <fieldset class="blue1">
+      <legend>Registration:</legend>
+      <p class="spect1">Common:</p>
+     Name <input class="input1"type="text" name="name" id="firstName" > <div class="vivat1"> *John</div> 
+      <label for="firstName"></label>
+      <p><label for="myHeader">Surname</label><input class="input2" type="text" name="namem" id="myHeader" ></p><div class="vivat"> *Doe</div>
+      <div><p class="knop1">Gender</p></div>
+      <div class="knop">
+         <label><input type="radio"  name="color" value="male">Male</label>
+         <p><label><input type="radio" name="time1" value="femeli">Femali</p></label>
+         <p><label><input type="radio" name="time" value="unknown"></label>Unknown</p>
+     </div>
+     <div class="blue3"><p> <label for="data">Date of birth</label><input class="input3" type="data" placeholder="mm/dd/yyyy" name="name" id="data"></p></div><div class="vivat2"> *01/01/1900</div>
 
-     <p class="2">Addres:</p>
-     <p <label  class="blue3"for="password">Country</label><input class="input4" type="password" name="password" id="password" ></p>
+       <p class="blue2">Addres:</p>
+       <div class="blue3"> <p><label for="firstHeader">Country</label><input class="input4" type="text" placeholder="Select" name="name" id="firstHeader"></p></div>
 
-     <p class="neim3">Other:</p>
-     <p <label  class="blue3"for="password">Favourite color</label><input class="input"type="password" name="password" id="password"size="60" ></p>
+       <div class="spect3">Other:</div>
+       <div class="blue3"> <p><label for="myFirst">Favourite color</label><input class="input" type="color" type="text" name="name" id="myFirst"  ></p></div>
 
-     <p class="neim4">Security</p>
-     <p <label for="password">Password</label><input class="input5"type="password" name="password" id="password" ></p>
-     <p <label for="password">Repeat password</label><input class="input6"type="password" name="password" id="password" ></p>
-	 
-     <label for="name">Email</label> <input class="input7"type="text" name="name" id="name">john_doe@example.com</p>
-     <p><input class="input8"type="reset" name="reset" value="Register"></p>
-  </fieldset>
-
-
-
-
-
-
-
-
-
+       <p class="spect4">Security</p>
+     <div class="vivat4">
+        <p> <label for="Name_my">Password</label><input class="input5" type="password" name="password" id="Name_my" ></p>
+        <p> <label for="first_Header">Repeat password</label><input class="input6" type="password" name="password" id="first_Header"></p>
+        <label for="name_myFirst">Email</label> <input class="input7"type="text" name="name" id="name_myFirst" ></p><div class="vivat3"> *john_doe@example.com</div>
+     </div>
+        <p><input class="input8" type="reset" name="reset" value="Register"></p>
+   </fieldset>
 
  </body>
 </html>
